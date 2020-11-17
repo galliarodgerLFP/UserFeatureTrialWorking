@@ -7,7 +7,7 @@ if ($connection->connect_error){
     die("Connection failed: " . $connection->connect_error);
 }
 
-$sqlShowDetails = "SELECT userID, username, password, level FROM USERS WHERE username = '" . $loginUsername . "'";
+$sqlShowDetails = "SELECT dbID, username, password, level FROM usersusers WHERE username = '" . $loginUsername . "'";
 $result = $connection->query($sqlShowDetails);
 
 if ($result->num_rows > 0){
