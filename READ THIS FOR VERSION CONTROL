@@ -1,0 +1,2 @@
+soooo using the smaller database examples, the OldWorking file is the way to go.
+In terms of using the PHP files, you can use the ones provided in that folder but you have to move them into their respective place and update the WebFin.cs file to find the path correctly.
