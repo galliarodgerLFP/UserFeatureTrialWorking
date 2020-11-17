@@ -8,7 +8,7 @@ public class WebComm : MonoBehaviour
 {
     public void ShowUserItems()
     {
-        StartCoroutine(GetItemsID(Main.instance.userInfo.UserID));
+        StartCoroutine(GetItemsID(Main.instance.userInfo.userID));
     }
 
     public IEnumerator RegisterUser(string username, string password1, string password2, string level, string name, string surname, string address, string email, string cell, string landline, string maritialStatus, string race, string gender, string affiliate, string idNum)
